@@ -1,0 +1,11 @@
+[package]
+description = "Shebang for C"
+edition = "2024"
+license = "GPL-3.0-or-later"
+name = "shcc"
+version = "0.0.1"
+
+[dependencies]
+clap = { version = "4.5.60", features = ["derive"] }
+directories = "6.0.0"
+log = "0.4.29"
