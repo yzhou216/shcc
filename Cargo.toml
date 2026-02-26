@@ -7,5 +7,6 @@ version = "0.0.1"
 
 [dependencies]
 clap = { version = "4.5.60", features = ["derive"] }
+derive_builder = "0.20.2"
 directories = "6.0.0"
 log = "0.4.29"
